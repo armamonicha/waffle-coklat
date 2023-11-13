@@ -1,13 +1,13 @@
 <?php
     // Contoh variabel umur
-    $belanja = 20000;
+    $belanja = 5000;
 
     // Percabangan if/else if/else
     if ($belanja < 20000) {
-        echo "<p>Tidak Mendapatkan Diskon:(.</p>";
+        echo "Tidak Mendapatkan Diskon:(";
     } elseif ($belanja >= 20000 && $belanja < 100000) {
-        echo "<p>Mendapatkan Diskon 5%.</p>";
+        echo "Mendapatkan Diskon 5%";
     } else {
-        echo "<p>Mendapatkan Diskon 7%.</p>";
+        echo "Mendapatkan Diskon 7%";
     }
 ?>

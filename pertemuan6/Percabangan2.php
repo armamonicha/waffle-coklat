@@ -1,17 +1,17 @@
 <?php
     // Contoh variabel jenis kelamin
-    $jenis_kelamin = 'Pria';
+    $jenis_kelamin = '';
 
     // Percabangan switch/case
     switch ($jenis_kelamin) {
         case 'Pria':
-            echo "<p>Selamat datang, Pak!</p>";
+            echo "Selamat datang, Pak!";
             break;
         case 'Wanita':
-            echo "<p>Selamat datang, Bu!</p>";
+            echo "Selamat datang, Bu!";
             break;
         default:
-            echo "<p>Selamat datang!</p>";
+            echo "Selamat datang!";
             break;
     }
 ?>
